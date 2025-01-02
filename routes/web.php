@@ -18,7 +18,7 @@ use App\Http\Controllers\PublisherController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('templates.default');
 });
 
 //Route::get('/author', [AuthorController::class, 'index'])->name('author.index'); 
